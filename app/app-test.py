@@ -10,10 +10,6 @@ class MyTest(unittest.TestCase):
         self.assertEqual(add_numbers(-1, -1), -2)
         self.assertEqual(add_numbers(1.0, 1), 2)
         self.assertEqual(add_numbers(1.1, 1.1), 2.2)
-        # 1 + 1 = 4
-        self.assertEqual(add_numbers(1, 2), 4)
-        # 1 + 3 = 5
-        self.assertEqual(add_numbers(2, 2), 4)
 
 
 if __name__ == '__main__':
